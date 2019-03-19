@@ -1,6 +1,6 @@
 function ubahHuruf(kata) {
     // you can only write your code here!
-    var alfabet= 'abcdefghijklmnopqrstuvwxyz'
+    var alfabet= 'abcdefghijklmnopqrstuvwxyza'
     var urutan=0
     var hurufSelanjutnya=''
 
