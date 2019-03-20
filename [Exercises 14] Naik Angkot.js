@@ -20,7 +20,7 @@ function naikAngkot(arrPenumpang) {
             var tujuan2 = rute.indexOf(rute[j])
           }
         }
-      obj.bayar = (tujuan2 - keberangkatan)* 2000
+      obj.bayar = Math.abs(tujuan2 - keberangkatan)* 2000
       output.push(obj)
   }
  
